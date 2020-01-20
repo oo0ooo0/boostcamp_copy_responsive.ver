@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900|Noto+Serif+KR:400,500,700|Roboto:400,500,900&display=swap');
-/* 초기화 코드 */
+/* reset */
 
 ::selection {
     color: white;
@@ -31,27 +31,21 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, ol {
     display: none;
 }
 
-/* html, body {
-    border: 3px solid blue;
-} */
 
 body {
     color: #4a90e2;
     background-color: #e5f1ff;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
-    /* border: 3px solid red; */
 }
 
 section {
     padding-top: 70px;
     padding-bottom: 60px;
-    /* border: 2px solid red; */
 }
 
 h2 {
     font-size: 32px;
-    /* margin-top: 70px; */
     margin-bottom: 36px;
 }
 
@@ -83,8 +77,6 @@ em {
     text-align: center;
     padding: 16px 30px;
     margin-top: 40px;
-    /* margin-bottom: 60px; */
-    /* clear: both; 인라인 속성은 clear 가 안됨 */
 }
 
 .btn:hover {
@@ -116,13 +108,9 @@ em {
 }
 
 .inner {
-    /* border: 5px solid yellow; */
     max-width: 1200px;
-    /* padding: 0 30px; */
-    /* width: 1200px; */
     margin: 0 auto;
     position: relative;
-    /* overflow: hidden; */
 }
 
 li {
@@ -163,7 +151,7 @@ li {
     }
 }
 
-/* 태블릿 버전 세로 768 */
+/* 768 */
 
 @media screen and (max-width:768px) {
     .mobile {

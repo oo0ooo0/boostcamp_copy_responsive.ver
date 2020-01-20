@@ -18,35 +18,27 @@ footer address {
 }
 
 footer ul {
-    /* border: 3px solid red; */
-    /* background-color: yellow; */
-    position: absolute;
+     position: absolute;
     top: 0;
     right: 0;
 }
 
 footer li {
     display: inline-block;
-    /* border: 3px solid greenyellow; */
-    margin-left: 30px;
+     margin-left: 30px;
 }
 #top {
-    /* border: 2px solid blue; */
-    position: fixed;
+     position: fixed;
     bottom: 50px;
     right: 50px;
     text-align: center;
-    /* cursor: pointer; */
-    /* background-color: indianred; */
-    z-index: 3;
+     z-index: 3;
 }
 #top div:first-child {
-    /* border: 2px solid red; */
-    font-size: 40px;
+     font-size: 40px;
 }
 #top div:last-child {
-    /* border: 2px solid green; */
-    margin-top: -10px;
+     margin-top: -10px;
 }
 
 @media screen and (max-width:1260px) {

@@ -1,14 +1,7 @@
 header {
-    /* background-color: #5a96ff; */
-    background-image: linear-gradient(120deg, #0c3483 0%, #5a96ff 100%);
-    /* background-image: linear-gradient(0deg, #13547a 0%, #ec6002 100%); */
-    /* w3school */
-    /* background-image: radial-gradient(red, yellow, green); */
-    /* background-image: radial-gradient(red 5%, yellow 15%, green 60%); */
-    /* background-image: radial-gradient(circle, red, yellow, green); */
-    /* background-image: radial-gradient(closest-side at 20% 10%, red, yellow, black); */
-    color: white;
-    overflow: hidden;
+     background-image: linear-gradient(120deg, #0c3483 0%, #5a96ff 100%);
+     color: white;
+     overflow: hidden;
 }
 
 #section1 {
@@ -21,16 +14,13 @@ header {
 }
 
 header p:nth-of-type(1) {
-    /* border: 5px solid red; */
-    font-size: 32px;
+     font-size: 32px;
     margin-bottom: 260px;
 }
 
 header p:nth-of-type(2) {
-    /* border: 5px solid blue; */
     font-size: 30px;
     padding-bottom: 80px;
-    /* font-weight: 100; */
     animation-name: move3;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -47,13 +37,11 @@ header p:nth-of-type(2) {
 }
 
 header #move_text1 {
-    /* border: 3px solid aqua; */
     margin-left: 50px;
     display: block;
     opacity: 0;
     animation-name: move2;
     animation-duration: 1s;
-    /* animation-delay: 0.5s; */
     animation-fill-mode: forwards;
 }
 @keyframes move2 {
@@ -64,12 +52,10 @@ header #move_text1 {
 }
 
 header strong {
-    /* border: 3px solid yellow; */
     font-size: 70px;
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 55px;
     display: block;
-    /* css 애니메이션 */
     margin-top: 60px;
     opacity: 0;
     animation-name: move1;
@@ -94,7 +80,6 @@ header strong {
 }
 
 header .inner::before {
-    /* display: block; */
     content: "";
     width: 600px;
     height: 600px;
@@ -106,11 +91,9 @@ header .inner::before {
 }
 
 #section1 {
-    /* background-image: url("../img/line-01.png"), url("../img/line-02.png"); */
     background-image: url("../img/line-01.png");
     background-size: contain;
     background-repeat: no-repeat;
-    /* background-position-x: left, right; */
 }
 
 #section2 {
@@ -123,16 +106,12 @@ header .inner::before {
 
 #section3 li p {
     background-color: white;
-    /* border: 1px solid  #6d90e4; */
-    /* margin-bottom: 5px; */
     text-align: center;
 }
 
 #section3 li p:first-child {
-    /* border: 1px solid red; */
     margin-bottom: 5px;
     color: #333;
-    /* font-weight: 300; */
     font-size: 18px;
     padding: 8px 0;
 }
@@ -142,13 +121,9 @@ header .inner::before {
 }
 
 #section3 li {
-    /* border: 3px solid red; */
-    /* display: inline-block; */
     float: left;
     width: 179.1666666666667px;
     margin-right: 25px;
-    /* 1075 / 6 = 179.1666666666667‬px */
-    /* 1200 - (25*5) = 1075 */
     box-sizing: border-box;
 }
 
@@ -158,13 +133,11 @@ header .inner::before {
 
 #section3 ol::after {
     content: "";
-    /* border: 3px solid green; */
     display: block;
     clear: both;
 }
 
 #section3 ol {
-    /* border: 3px solid blue; */
     margin-top: 40px;
 }
 
@@ -190,15 +163,11 @@ header .inner::before {
         float: none;
         width: 100%;
         margin-bottom: 5px;
-        /* border: 3px solid red; */
         display: flex;
     }
     #section3 li p {
         padding: 8px 0 !important;
         font-size: 16px !important;
-        /* float: left;
-        width: 30%; */
-        /* border: 1px solid black; */
         height: 47px;
         box-sizing: border-box;
     }
@@ -220,7 +189,6 @@ header .inner::before {
         padding-bottom: 30px;
     }
     header strong {
-        /* border: 3px solid yellow; */
         font-size: 50px;
         margin-bottom: 10px;
     }
